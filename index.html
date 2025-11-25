@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens com Modal | Unplash API </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Galeria de Imagens Aleatória</h1>
+        <p>Projeto de amostra usando HTML, CSS e JavaScript e API Unplash</p>
+    </header>
+
+    <main class="gallery-container">
+        <p class="loading-message">Carregando imagens do Unplash</p>
+    </main>
+
+    <div id="image-modal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="Fechar galeria de imagem">&times;</button>
+            <img id="modal-image" src="" alt="Imagem ampliada da galeria" class="modal-image-display">
+            <p id="modal-caption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
