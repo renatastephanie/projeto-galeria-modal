@@ -113,6 +113,11 @@ body {
 }
 
 /* Classe JS para exibir o modal */
+.modal.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
 .modal-content {
     background-color: var(--color-background-modal);
     padding: 20px;
